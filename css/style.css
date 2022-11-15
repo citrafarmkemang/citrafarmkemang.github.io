@@ -540,6 +540,12 @@ mark,
   height: auto;
 }
 
+.img-produk img {
+  width: 500px;
+  height: 100px;
+}
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #FFFBF2;
@@ -9639,6 +9645,35 @@ h6,
   color: #33211D;
   background: #DA9F5B;
 }
+
+
+.produk-carousel .owl-dots {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.produk-carousel .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #DA9F5B;
+  transition: .5s;
+}
+
+.produk-carousel .owl-dot.active {
+  width: 40px;
+  background: #33211D;
+}
+
+.produk-carousel .owl-item img {
+  width: 80px;
+  height: 80px;
+}
+
+
 
 .testimonial-carousel .owl-dots {
   margin-top: 30px;
